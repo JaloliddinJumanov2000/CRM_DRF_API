@@ -15,7 +15,7 @@ schema_view = get_schema_view(
       description="O'quv markazi uchun CRM API hujjatlari",
    ),
    public=True,
-   permission_classes=(permissions.AllowAny,),
+   permission_classes=[permissions.AllowAny,],
 )
 
 urlpatterns = [
